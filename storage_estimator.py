@@ -7,3 +7,6 @@ storage_bytes = storage_kb * 1024
 print ("Storage in MB: ", storage_mb)
 print ("Storage in KB: ", storage_kb)
 print ("Storage in Bytes: ", storage_bytes)
+
+gb_conversion = storage_mb / 1024
+print ("GB Conversion: ", gb_conversion)
